@@ -1,0 +1,21 @@
+{
+  "name": "deveco-agent-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A desktop client with a bundled DevEco Code agent runtime",
+  "main": "desktop/main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "prepare:release-runtime": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/prepare-release-runtime.ps1",
+    "package:win": "electron-builder --config electron-builder.config.cjs --win zip --x64",
+    "package:win:installer": "electron-builder --config electron-builder.config.cjs --win nsis --x64",
+    "test": "node --test --test-concurrency=1 tests/*.test.cjs"
+  },
+  "devDependencies": {
+    "electron": "44.7.0",
+    "electron-builder": "26.8.1"
+  },
+  "dependencies": {
+    "jsonc-parser": "3.3.1"
+  }
+}

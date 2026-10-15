@@ -1,0 +1,11 @@
+{
+  "runtime": "0.2.3",
+  "isolationVerified": true,
+  "globalPatchResponse": "global-fixture",
+  "projectPatchResponse": "project-fixture",
+  "projectReread": "global-fixture",
+  "configJsonWritten": true,
+  "devecoJsonWritten": false,
+  "projectPatchActuallyEffective": false,
+  "note": "Only isolated temporary config; no user configuration or model requests"
+}

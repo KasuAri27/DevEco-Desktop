@@ -1,0 +1,16 @@
+{
+  "runtime": "DevEco Code 0.2.3",
+  "isolation": "Fresh XDG directories + DEVECO_TEST_HOME; --pure; external/project skills disabled",
+  "realAccountLoginAttempted": false,
+  "modelRequestsMade": false,
+  "productAgreementAccepted": false,
+  "runtimeIsolationVerified": true,
+  "authInitiallyEmpty": true,
+  "authPutSucceeded": true,
+  "metadataContainsFixtureId": true,
+  "secretOmitted": true,
+  "authDeleteSucceeded": true,
+  "authEmptyAfterDelete": true,
+  "agreementReadSucceeded": true,
+  "allCredentialChecksPassed": true
+}

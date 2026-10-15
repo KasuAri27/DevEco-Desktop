@@ -1,0 +1,23 @@
+node_modules/
+.npm-cache/
+dist/
+out/
+release/
+*.log
+
+# Local workspace artifacts and cloned reference repositories
+/.bun-*/
+/.desktop-smoke/
+/.electron-cache/
+/.empty-git-hooks/
+/design-preview/
+/reference/
+/github-publish/
+/deveco-local-paths.md
+/design-qa.md
+
+# Rebuilt release runtime (prepared by scripts/prepare-release-runtime.ps1)
+/bundled-runtime/node_modules/
+/bundled-runtime/package.json
+/bundled-runtime/package-lock.json
+/bundled-runtime/node-runtime/node.exe

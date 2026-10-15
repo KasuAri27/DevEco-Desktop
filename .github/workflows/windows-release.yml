@@ -42,6 +42,9 @@ jobs:
       - name: Install project dependencies
         run: npm ci
 
+      - name: Download Electron runtime
+        run: node node_modules/electron/install.js
+
       - name: Prepare bundled Agent and Node.js runtimes
         run: npm run prepare:release-runtime
 
